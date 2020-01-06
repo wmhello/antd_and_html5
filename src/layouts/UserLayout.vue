@@ -2,14 +2,14 @@
   <div id="userLayout" :class="['user-layout-wrapper', device]">
     <div class="container">
       <div class="top">
-        <div class="header">
+        <!-- <div class="header">
           <a href="/">
             <img src="~@/assets/logo.svg" class="logo" alt="logo">
             <span class="title">Ant Design</span>
           </a>
-        </div>
+        </div> -->
         <div class="desc">
-          Ant Design 是西湖区最具影响力的 Web 设计规范
+          <h2>ERP管理系统</h2>
         </div>
       </div>
 
@@ -22,7 +22,7 @@
           <a href="_self">条款</a>
         </div>
         <div class="copyright">
-          Copyright &copy; 2018 白鹭学园技术组出品
+          Copyright &copy; 2018-2020
         </div>
       </div>
     </div>
@@ -108,7 +108,7 @@ export default {
           }
         }
         .desc {
-          font-size: 14px;
+          font-size: 24px;
           color: rgba(0, 0, 0, 0.45);
           margin-top: 12px;
           margin-bottom: 40px;

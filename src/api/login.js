@@ -12,25 +12,25 @@ import { axios } from '@/utils/request'
  * @param parameter
  * @returns {*}
  */
-export function login (parameter) {
+export function login (data) {
   return axios({
-    url: '/auth/login',
+    url: '/api/login',
     method: 'post',
-    data: parameter
+    data
   })
 }
 
-export function getSmsCaptcha (parameter) {
+export function getSmsCaptcha (data) {
   return axios({
     url: api.SendSms,
     method: 'post',
-    data: parameter
+    data: data
   })
 }
 
 export function getInfo () {
   return axios({
-    url: '/user/info',
+    url: '/api/user',
     method: 'get',
     headers: {
       'Content-Type': 'application/json;charset=UTF-8'
@@ -47,7 +47,7 @@ export function getCurrentUserNav (token) {
 
 export function logout () {
   return axios({
-    url: '/auth/logout',
+    url: '/api/logout',
     method: 'post',
     headers: {
       'Content-Type': 'application/json;charset=UTF-8'
