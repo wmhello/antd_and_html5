@@ -1,132 +1,56 @@
-English | [简体中文](./README.zh-CN.md)
+## 写在前面
+   作为项目的前端，可以配合着作者的开源程序[laravel_template_with_vue](https://github.com/wmhello/laravel_template_with_vue)的后端一起使用，laravel_template_with_vue的前端使用了element UI, 如果你想使用antd for vue，可以使用该版本，后端可以无缝衔接。  
+   本项目的很大不封，主要是用于演示html5的使用，给大家学习html5提供借鉴和参考。
 
-<h1 align="center">Ant Design Pro Vue</h1>
-<div align="center">
-An out-of-box UI solution for enterprise applications as a Vue boilerplate. based on  <a href="https://vuecomponent.github.io/ant-design-vue/docs/vue/introduce-cn/" target="_blank">Ant Design of Vue</a>
-</div>
+## 1、 当前版本介绍
+### 1.1 版本说明
+>  当前版本antd_and_html5 (0.1)  
+### 1.2  改进说明
 
-<div align="center">
+## 2、前端：
+>  1. 前端使用了antd for vue UI，请参照开发
+>  2. html5主要演示了原生功能的使用
 
-[![Backers on Open Collective](https://opencollective.com/ant-design-pro-vue/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/ant-design-pro-vue/sponsors/badge.svg)](#sponsors) [![License](https://img.shields.io/npm/l/package.json.svg?style=flat)](https://github.com/sendya/ant-design-pro-vue/blob/master/LICENSE)
-[![Release](https://img.shields.io/github/release/sendya/ant-design-pro-vue.svg?style=flat)](https://github.com/sendya/ant-design-pro-vue/releases/latest)
-[![Travis branch](https://travis-ci.org/sendya/ant-design-pro-vue.svg?branch=master)](https://travis-ci.org/sendya/ant-design-pro-vue)
+## 3、项目演示
+> 演示网站(http://wmhello.wicp.com)  
+> 管理员用户名和密码(admin/123456)  
 
-</div>
+## 4、项目截图
 
-- Preview: https://preview.pro.loacg.com
-- Home Page: https://pro.loacg.com
-- Documentation: https://pro.loacg.com/docs/getting-started
-- ChangeLog: https://pro.loacg.com/docs/changelog
-- FAQ: https://pro.loacg.com/docs/faq
+## 5、技术支持
+> 欢迎大家来光临我的博客，主要专注于laravel与vue.js的应用
+[博客](https://wmhello.github.io)
 
-Overview
-----
+> 如果对您有帮助，您可以点右上角 "Star" 支持一下 谢谢！ ^_^
 
-![dashboard + multi-tabs](https://static-2.loacg.com/open/static/github/20190224163345.jpg)
+> 或者您可以 "follow" 一下，我会不断完善该项目
 
-![dashboard + setting](https://static-2.loacg.com/open/static/github/20181126112124.png)
+> 开发环境 windows 7  Chrome 63  PHP 7.1.7
 
-![user profile](https://static-2.loacg.com/open/static/github/20180916-134251.png)
+> 如有问题请直接在 Issues 中提，或者您发现问题并有非常好的解决方案，欢迎 PR 👍
 
-![permission list](https://static-2.loacg.com/open/static/github/20180916-154937.png)
+> __部署和使用中如果有疑问，可以到项目交流群进行讨论：106822531(QQ)或者关注公众号(computer_life)学习相关基础知识
 
+> ![QQ群二维码](https://github.com/wmhello/laravel_template_with_vue/raw/master/Screenshots/qq_qrcode.jpg)
 
-### Env and dependencies
-
-- node
-- yarn
-- webpack
-- eslint
-- @vue/cli ~3
-- [ant-design-vue](https://github.com/vueComponent/ant-design-vue) - Ant Design Of Vue 
-- [vue-cropper](https://github.com/xyxiao001/vue-cropper) - Picture edit
-- [@antv/g2](https://antv.alipay.com/zh-cn/index.html) - AntV G2
-- [Viser-vue](https://viserjs.github.io/docs.html#/viser/guide/installation)  - Antv/G2 of Vue
-
-> Note:  [Yarn](https://yarnpkg.com/) package management is recommended, the exact same version loaded with the demo site of this project (yarn.lock) . but you can also use npm
+> ![全栈开发公众号](https://github.com/wmhello/laravel_template_with_vue/blob/master/Screenshots/gzh.jpg)
 
 
-### Project setup
+## 6、打赏
+如果我的付出能够帮助到你，我也乐于接受你的帮助，小小的赞赏是我们持续进步的动力。
 
-- Clone repo
-```bash
-git clone https://github.com/sendya/ant-design-pro-vue.git
-cd ant-design-pro-vue
-```
+![支付宝支付](https://github.com/wmhello/laravel_template_with_vue/raw/master/Screenshots/pay1.jpg)
+![微信支付](https://github.com/wmhello/laravel_template_with_vue/raw/master/Screenshots/wx.jpg)
 
-- Install dependencies
-```
-yarn install
-```
+## 7、致谢
+  站在巨人之上，我们才能走得更远。该前端项目中使用和借鉴了以下开源框架的实现方法 一并致谢
+>- [vue.js](https://cn.vuejs.org/index.html)
+>- [antd for vue](https://www.antdv.com/docs/vue/introduce-cn/)
+>- [vue-router](https://router.vuejs.org/)
+>- [vuex](https://vuex.vuejs.org/)
+>- [前端构架 ant-design-pro-vue](https://github.com/sendya/ant-design-pro-vue)
+>- [文档 ant-design-pro-vue](https://pro.loacg.com/docs/getting-started)
 
-- Compiles and hot-reloads for development
-```
-yarn run serve
-```
+# License
 
-- Compiles and minifies for production
-```
-yarn run build
-```
-
-- Lints and fixes files
-```
-yarn run lint
-```
-
-
-### Other
-
-- **IMPORTANT : About Issue feedback !! when opening Issue read [Issue / PR Contributing](https://github.com/sendya/ant-design-pro-vue/issues/90)**
-
-- [Vue-cli3](https://cli.vuejs.org/guide/) used by the project.
-
-- Disable Eslint (not recommended): remove `eslintConfig`  field in `package.json`  and `vue.config.js` field `lintOnSave: false`
-
-- Load on Demand: modify `/src/main.js` L14,  replace to `import './core/lazy_use'` code. more [load-on-demand.md](./docs/load-on-demand.md)
-
-- Customize Theme:  [Custom Theme Config (@kokoroli)](https://github.com/kokoroli/antd-awesome/blob/master/docs/Ant_Design_%E6%A0%B7%E5%BC%8F%E8%A6%86%E7%9B%96.md)
-
-- I18n: [locales (@musnow)](./src/locales/index.js)
-
-- Production env `mock` is disabled. use `src/mock/index.js`
-
-- Plz use `release` version
-
-## Browsers support
-
-Modern browsers and IE10.
-
-| [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png" alt="Opera" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Opera |
-| --- | --- | --- | --- | --- |
-| IE10, Edge | last 2 versions | last 2 versions | last 2 versions | last 2 versions |
-
-
-## Contributors
-
-This project exists thanks to all the people who contribute. 
-<a href="https://github.com/sendya/ant-design-pro-vue/graphs/contributors"><img src="https://opencollective.com/ant-design-pro-vue/contributors.svg?width=890&button=false" /></a>
-
-
-## Backers
-
-Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/ant-design-pro-vue#backer)]
-
-<a href="https://opencollective.com/ant-design-pro-vue#backers" target="_blank"><img src="https://opencollective.com/ant-design-pro-vue/backers.svg?width=890"></a>
-
-
-## Sponsors
-
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/ant-design-pro-vue#sponsor)]
-
-<a href="https://opencollective.com/ant-design-pro-vue/sponsor/0/website" target="_blank"><img src="https://opencollective.com/ant-design-pro-vue/sponsor/0/avatar.svg"></a>
-<a href="https://opencollective.com/ant-design-pro-vue/sponsor/1/website" target="_blank"><img src="https://opencollective.com/ant-design-pro-vue/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/ant-design-pro-vue/sponsor/2/website" target="_blank"><img src="https://opencollective.com/ant-design-pro-vue/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/ant-design-pro-vue/sponsor/3/website" target="_blank"><img src="https://opencollective.com/ant-design-pro-vue/sponsor/3/avatar.svg"></a>
-<a href="https://opencollective.com/ant-design-pro-vue/sponsor/4/website" target="_blank"><img src="https://opencollective.com/ant-design-pro-vue/sponsor/4/avatar.svg"></a>
-<a href="https://opencollective.com/ant-design-pro-vue/sponsor/5/website" target="_blank"><img src="https://opencollective.com/ant-design-pro-vue/sponsor/5/avatar.svg"></a>
-<a href="https://opencollective.com/ant-design-pro-vue/sponsor/6/website" target="_blank"><img src="https://opencollective.com/ant-design-pro-vue/sponsor/6/avatar.svg"></a>
-<a href="https://opencollective.com/ant-design-pro-vue/sponsor/7/website" target="_blank"><img src="https://opencollective.com/ant-design-pro-vue/sponsor/7/avatar.svg"></a>
-<a href="https://opencollective.com/ant-design-pro-vue/sponsor/8/website" target="_blank"><img src="https://opencollective.com/ant-design-pro-vue/sponsor/8/avatar.svg"></a>
-<a href="https://opencollective.com/ant-design-pro-vue/sponsor/9/website" target="_blank"><img src="https://opencollective.com/ant-design-pro-vue/sponsor/9/avatar.svg"></a>
-
+[MIT](https://github.com/wmhello/laravel_template_with_vue/blob/master/LICENSE)
