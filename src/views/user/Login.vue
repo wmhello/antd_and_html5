@@ -7,12 +7,12 @@
       :form="form"
       @submit="handleSubmit"
     >
-          <a-alert v-if="isLoginError" type="error" showIcon style="margin-bottom: 24px;" message="账户或密码错误（admin/123456 )" />
+          <a-alert v-if="isLoginError" type="error" showIcon style="margin-bottom: 24px;" message="账户或密码错误（871228582@qq.com/123456 )" />
           <a-form-item>
             <a-input
               size="large"
               type="text"
-              placeholder="账户: admin"
+              placeholder="账户: 871228582@qq.com"
               v-decorator="[
                 'email',
                 {rules: [{ required: true, message: '请输入登录名' }, { validator: handleUsernameOrEmail }], validateTrigger: 'change'}
@@ -192,19 +192,7 @@ export default {
       })
     },
     loginSuccess (res) {
-      console.log(res)
-      // check res.homePage define, set $router.push name res.homePage
-      // Why not enter onComplete
-      /*
-      this.$router.push({ name: 'analysis' }, () => {
-        console.log('onComplete')
-        this.$notification.success({
-          message: '欢迎',
-          description: `${timeFix()}，欢迎回来`
-        })
-      })
-      */
-      this.$router.push({ path: '/' })
+      this.$router.push({path: '/dashboard/analysis'})
       // 延迟 1 秒显示欢迎信息
       setTimeout(() => {
         this.$notification.success({

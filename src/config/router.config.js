@@ -9,13 +9,13 @@ export const asyncRouterMap = [
     name: 'index',
     component: BasicLayout,
     meta: { title: '首页' },
-    redirect: '/dashboard/workplace',
+    redirect: '/dashboard/analysis',
     children: [
       // dashboard
       {
         path: '/dashboard',
         name: 'dashboard',
-        redirect: '/dashboard/workplace',
+        redirect: '/dashboard/analysis',
         component: RouteView,
         meta: { title: '仪表盘', keepAlive: true, icon: bxAnaalyse, permission: [ 'dashboard' ] },
         children: [

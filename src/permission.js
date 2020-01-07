@@ -11,7 +11,7 @@ import { ACCESS_TOKEN } from '@/store/mutation-types'
 NProgress.configure({ showSpinner: false }) // NProgress Configuration
 
 const whiteList = ['login', 'register', 'registerResult'] // no redirect whitelist
-const defaultRoutePath = '/dashboard/workplace'
+const defaultRoutePath = '/dashboard/analysis'
 
 router.beforeEach((to, from, next) => {
   NProgress.start() // start progress bar
@@ -22,12 +22,13 @@ router.beforeEach((to, from, next) => {
       next({ path: defaultRoutePath })
       NProgress.done()
     } else {
-      if (store.getters.roles.length === 0) {
+      if (store.getters.roles.length === 0) {        
         store
           .dispatch('GetInfo')
           .then(res => {
-            const roles = res.data && res.data.role
-            store.dispatch('GenerateRoutes', { roles }).then(() => {
+            const roles = res && res.roles
+            const permissions = res && res.permissions
+            store.dispatch('GenerateRoutes', { roles, permissions }).then(() => {
               // 根据roles权限生成可访问的路由表
               // 动态添加可访问路由表
               router.addRoutes(store.getters.addRouters)
